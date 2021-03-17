@@ -1,0 +1,23 @@
+{
+  "name": "reverse-word",
+  "version": "1.0.0",
+  "description": "Backend supporting reversing a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test/*.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "reverse",
+    "string"
+  ],
+  "author": "Jonathan Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
+  }
+}
